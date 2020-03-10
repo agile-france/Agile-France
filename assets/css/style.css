@@ -8,6 +8,10 @@
 	right: 0;
 }
 
+.brand .brand-subtitle {
+    font-size: 1rem !important;
+}
+
 .button.is-success.cfp-color {
 	background-color: #1ab394;
 }
