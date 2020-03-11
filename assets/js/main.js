@@ -9,7 +9,7 @@ $(document).ready(function() {
 
         $('html, body').animate(
             { 
-                scrollTop: $(page).offset().top 
+                scrollTop: $(page).offset().top - $('.app-header').height()
             }
             , speed
         );
