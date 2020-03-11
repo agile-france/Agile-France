@@ -8,6 +8,10 @@
 	right: 0;
 }
 
+.brand .brand-subtitle {
+    font-size: 1rem !important;
+}
+
 .button.is-success.cfp-color {
 	background-color: #1ab394;
 }
@@ -8831,19 +8835,19 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos],[data-aos][data-aos][data-a
 }
 @font-face{
     font-family:"GT Eesti Display";
-    src:url("/assets/fonts/gt-eesti-display/GTEestiDisplay-Regular-1b07bf16.ttf") format("truetype"),url("/assets/fonts/gt-eesti-display/GTEestiDisplay-Regular-d62d0c92.woff2") format("woff2"),url("/assets/fonts/gt-eesti-display/GTEestiDisplay-Regular-4c708fcc.woff") format("woff");
+    src:url("../fonts/gt-eesti-display/GTEestiDisplay-Regular-1b07bf16.ttf") format("truetype"),url("../fonts/gt-eesti-display/GTEestiDisplay-Regular-d62d0c92.woff2") format("woff2"),url("../fonts/gt-eesti-display/GTEestiDisplay-Regular-4c708fcc.woff") format("woff");
     font-weight:normal;
     font-style:normal
 }
 @font-face{
     font-family:"GT Eesti Display";
-    src:url("/assets/fonts/gt-eesti-display/GTEestiDisplay-Medium-bea79cdb.ttf") format("truetype"),url("/assets/fonts/gt-eesti-display/GTEestiDisplay-Medium-2e7a2911.woff2") format("woff2"),url("/assets/fonts/gt-eesti-display/GTEestiDisplay-Medium-275f8fec.woff") format("woff");
+    src:url("../fonts/gt-eesti-display/GTEestiDisplay-Medium-bea79cdb.ttf") format("truetype"),url("../fonts/gt-eesti-display/GTEestiDisplay-Medium-2e7a2911.woff2") format("woff2"),url("../fonts/gt-eesti-display/GTEestiDisplay-Medium-275f8fec.woff") format("woff");
     font-weight:500;
     font-style:normal
 }
 @font-face{
     font-family:"Feather";
-    src:url("/assets/fonts/feather/Feather-cead6299.woff") format("woff"),url("/assets/fonts/feather/Feather-0088c683.ttf") format("truetype"),url("/assets/fonts/feather/Feather-aeba1585.svg") format("svg");
+    src:url("../fonts/feather/Feather-cead6299.woff") format("woff"),url("../fonts/feather/Feather-0088c683.ttf") format("truetype"),url("../fonts/feather/Feather-aeba1585.svg") format("svg");
     font-weight:normal;
     font-style:normal
 }
@@ -10116,7 +10120,7 @@ a:focus,button:focus{
     transition:opacity 86ms ease
 }
 .article-item .article-image.is-fallback{
-    background-image:url("/assets/images/blog/fallback_cover-6545e0b5.jpg?1553506557")
+    background-image:url("../images/blog/fallback_cover-6545e0b5.jpg?1553506557")
 }
 .article-item .article-content{
     display:-ms-flexbox;
@@ -11045,7 +11049,7 @@ a:focus,button:focus{
     opacity:1;
     transform:translateY(0);
     transition:opacity 172ms ease 500ms, transform 258ms ease 500ms;
-    background-image:url("/assets/images/cookie-monster-948af3ae.jpg?1553506557");
+    background-image:url("../images/cookie-monster-948af3ae.jpg?1553506557");
     background-size:116px 88px;
     background-repeat:no-repeat;
     background-position:bottom right
