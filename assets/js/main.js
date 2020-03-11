@@ -48,6 +48,11 @@ $(document).ready(function() {
         $('.navbar-menu').toggleClass('is-active');
     });
 
+	// Close menu on mobile after click on a link
+	$('.navbar-menu .navbar-item').click(function() {
+		$('.navbar-burger').click();
+	});
+
     // Modal
     $('.modal-close, .modal-background').click(function () {
         $('.modal').removeClass('is-active');
