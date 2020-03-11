@@ -9,7 +9,7 @@ $(document).ready(function() {
 
         $('html, body').animate(
             { 
-                scrollTop: $(page).offset().top 
+                scrollTop: $(page).offset().top - $('.app-header').height()
             }
             , speed
         );
@@ -47,6 +47,11 @@ $(document).ready(function() {
         $('.navbar-burger').toggleClass('is-active');
         $('.navbar-menu').toggleClass('is-active');
     });
+
+	// Close menu on mobile after click on a link
+	$('.navbar-menu .navbar-item').click(function() {
+		$('.navbar-burger').click();
+	});
 
     // Modal
     $('.modal-close, .modal-background').click(function () {
